@@ -1,0 +1,22 @@
+.build/
+*.app/
+Fixtures/Transcription/audio/
+Fixtures/Transcription/results/
+.DS_Store
+
+# Local credentials and private capture/export artifacts.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.wav
+*.aif
+*.aiff
+*.caf
+*.m4a
+*.mp3
+*.flac
+*.pcm
+Call notes*.txt

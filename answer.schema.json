@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "should_answer": { "type": "boolean" },
+    "question": { "type": "string" },
+    "answer": { "type": "string" },
+    "caveat": { "type": "string" },
+    "follow_up": { "type": "string" },
+    "source": { "type": "string" }
+  },
+  "required": ["should_answer", "question", "answer", "caveat", "follow_up", "source"]
+}
